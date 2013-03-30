@@ -1,4 +1,3 @@
-
 /*
 //////////////////////////
  RECODE PROCESSING BORDEAUX 
@@ -27,7 +26,7 @@ void setup()
 {
   noLoop();
   size( 520, 700);
-  background (245,245, 230 );    // blanc papier jaunatre
+  background (245,245, 230 );    // paper white
   // limit of rectangle dimensions
   minW = 20;
   minH = 20;
@@ -70,10 +69,7 @@ void keyPressed()
   if ( (key == 's') | (key == 'S') )
   {
     saveFrame("output/RH-####.png");
-    println("sauvé dans output");
+    println("saved in output");
   }
 }
-
-// see saveFrame("output/RH-####.png") et les caractères de génération de nom de fichier 
-// # milliseconds from beginning of process
 
